@@ -1,26 +1,16 @@
 <head>
    <title>Random.TV</title> 
 </head>
+<body onclick="INSERT HERE"></body>
 <script>
         // An array of URL's
         var randURLs = [
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
-        "https://RandomTv.dragonterror.repl.co/",
+        "https://RandomTv.dragonterror.repl.co/1.html",
+        "https://RandomTv.dragonterror.repl.co/2.html",
+        "https://RandomTv.dragonterror.repl.co/3.html",
+        "https://RandomTv.dragonterror.repl.co/4.html",
+        "https://RandomTv.dragonterror.repl.co/5.html",
+        "https://RandomTv.dragonterror.repl.co/6.html",
         
     ];
 
@@ -28,6 +18,6 @@
 
         var randURL = Math.floor(Math.random() * randURLs.length);
 
-        window.open(randURLs[randURL]);
+        location.href=(randURLs[randURL]);
     }
 </script>
